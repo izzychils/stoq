@@ -1,0 +1,229 @@
+   ▲ Next.js 15.5.28
+   - Local:        http://localhost:3300
+   - Network:      http://192.168.5.5:3300
+
+ ✓ Starting...
+ ✓ Ready in 3.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 9.9s (835 modules)
+React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+ GET / 200 in 13549ms
+React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+ GET / 200 in 5898ms
+ ✓ Compiled in 5s (808 modules)
+ GET / 200 in 2788ms
+ GET / 200 in 4395ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 1437ms (533 modules)
+ GET /icon.svg?e38c679b47bebe6c 200 in 1896ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.3s (840 modules)
+ GET /dashboard 200 in 4020ms
+ GET / 200 in 1701ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 23.8s (1180 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ GET / 500 in 35380ms
+ GET / 500 in 3291ms
+ GET / 500 in 61820ms
+ GET / 500 in 3292ms
+ GET / 500 in 36097ms
+ GET / 500 in 3293ms
+ GET / 200 in 73ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ GET / 500 in 4870ms
+ GET / 500 in 845ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\prerender-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Israel Iraoya\\Documents\\Codes\\stoq\\.next\\prerender-manifest.json'
+}
+ GET / 500 in 3019ms
+ GET / 500 in 495ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz'

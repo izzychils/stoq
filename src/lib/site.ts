@@ -4,54 +4,58 @@ export const SITE = {
   tagline: "Inventory intelligence for every aisle",
   description:
     "Multi-location stock, demand forecasts and reorder suggestions in one operational view.",
+  company: "Ivents",
+  companyLine: "Stoq is a product of Ivents.",
   email: "hello@stoq.xyz",
   phone: "+234 812 000 7712",
   city: "Lagos, Nigeria",
+  location: "Lagos, Nigeria",
+  lastUpdated: "4 November 2026",
 };
 
 export const MARKETING_NAV = [
-  { label: "Platform", href: "#platform" },
-  { label: "Forecasting", href: "#forecast" },
-  { label: "Multi-location", href: "#locations" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Platform", href: "/platform" },
+  { label: "Forecasting", href: "/forecast" },
+  { label: "Multi-location", href: "/locations" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "FAQ", href: "/faq" },
 ] as const;
 
 export const PLATFORM_MENU = [
   {
     title: "Stock visibility",
     description: "Every SKU, every store, every warehouse.",
-    href: "#platform",
+    href: "/platform",
     icon: "boxes",
   },
   {
     title: "Demand forecasting",
     description: "Predict the next 8 weeks per product.",
-    href: "#forecast",
+    href: "/forecast",
     icon: "trending",
   },
   {
     title: "Automated restocking",
     description: "Reorder points that follow real velocity.",
-    href: "#reorder",
+    href: "/reorder",
     icon: "refresh",
   },
   {
     title: "Supplier operations",
     description: "Purchase orders, lead times, receipts.",
-    href: "#suppliers",
+    href: "/suppliers",
     icon: "truck",
   },
   {
     title: "Transfers & counts",
     description: "Move stock, reconcile counts, keep one ledger.",
-    href: "#locations",
+    href: "/locations",
     icon: "arrows",
   },
   {
     title: "Stock assistant",
     description: "Ask your inventory anything, in plain language.",
-    href: "#assistant",
+    href: "/assistant",
     icon: "sparkles",
   },
 ] as const;

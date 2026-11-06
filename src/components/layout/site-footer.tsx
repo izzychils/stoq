@@ -7,11 +7,11 @@ const COLUMNS = [
   {
     title: "Platform",
     links: [
-      { label: "Inventory", href: "/#platform" },
-      { label: "Demand forecasting", href: "/#forecast" },
-      { label: "Reordering", href: "/#reorder" },
-      { label: "Multi-location", href: "/#locations" },
-      { label: "Stock assistant", href: "/#assistant" },
+      { label: "Inventory", href: "/platform" },
+      { label: "Demand forecasting", href: "/forecast" },
+      { label: "Reordering", href: "/reorder" },
+      { label: "Multi-location", href: "/locations" },
+      { label: "Stock assistant", href: "/assistant" },
     ],
   },
   {
@@ -20,17 +20,18 @@ const COLUMNS = [
       { label: "Open demo", href: "/dashboard" },
       { label: "Sign in", href: "/sign-in" },
       { label: "Create account", href: "/sign-up" },
-      { label: "Pricing", href: "/#pricing" },
-      { label: "FAQ", href: "/#faq" },
+      { label: "Pricing", href: "/pricing" },
+      { label: "FAQ", href: "/faq" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "Who it is for", href: "/#audience" },
+      { label: "Who it is for", href: "/audience" },
+      { label: "Company Verification", href: "/verify" },
       { label: "Contact", href: `mailto:${SITE.email}` },
-      { label: "Barcode intake", href: "/#platform" },
-      { label: "Security", href: "/#platform" },
+      { label: "Barcode intake", href: "/platform" },
+      { label: "Security", href: "/platform" },
     ],
   },
 ] as const;

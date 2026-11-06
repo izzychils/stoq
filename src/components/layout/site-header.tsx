@@ -137,7 +137,7 @@ export function SiteHeader() {
                       One ledger for stores, warehouses and wholesale.
                     </span>
                     <a
-                      href="#platform"
+                      href="/platform"
                       onClick={() => setOpen(false)}
                       className="inline-flex items-center gap-1 text-[11.5px] font-semibold text-azure-300"
                     >

@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   },
   description:
     "Stoq is the AI stock platform for retailers, wholesalers, distributors and warehouses: multi-location inventory, demand forecasting, automated reordering, supplier management and a stock assistant that answers in plain language.",
+  icons: {
+    icon: "/icon.svg",
+  },
   keywords: [
     "inventory management",
     "stock control software",

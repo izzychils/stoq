@@ -227,3 +227,15 @@ React expects the `children` prop of <title> tags to be a string, number, bigint
  GET / 500 in 495ms
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz'
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\Israel Iraoya\Documents\Codes\stoq\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ✓ Compiled in 32.7s (1079 modules)
+ ✓ Compiled in 1960ms (453 modules)
+ ✓ Compiled in 6.9s (1093 modules)
+ ✓ Compiled in 847ms (453 modules)
+ ✓ Compiled in 2.9s (1093 modules)
+ ✓ Compiled in 1788ms (1093 modules)
+ ✓ Compiled in 9.5s (1093 modules)
+ ✓ Compiled in 15.5s (1093 modules)
+ ✓ Compiled in 16.8s (1093 modules)
+ ✓ Compiled in 6s (453 modules)
+ ✓ Compiled in 1845ms (453 modules)
+ ✓ Compiled in 17.5s (1093 modules)

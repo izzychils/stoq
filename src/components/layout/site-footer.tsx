@@ -28,7 +28,7 @@ const COLUMNS = [
     title: "Company",
     links: [
       { label: "Who it is for", href: "/audience" },
-      { label: "Company Verification", href: "/verify" },
+      // { label: "Company Verification", href: "/verify" },
       { label: "Contact", href: `mailto:${SITE.email}` },
       { label: "Barcode intake", href: "/platform" },
       { label: "Security", href: "/platform" },

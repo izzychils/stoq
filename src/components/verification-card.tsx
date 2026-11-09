@@ -15,11 +15,11 @@ interface CompanyRecord {
   country: string;
 }
 
-// Official Stoq/Ivents company record
+// Official Stoq company record
 const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "SQ-2026-00001",
-    companyName: "Ivents",
+    companyName: "Stoq", // "Ivents",
     website: "stoq.xyz",
     status: "Verified",
     registrationDate: "2026-01-10",

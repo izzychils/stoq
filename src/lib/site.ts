@@ -4,8 +4,8 @@ export const SITE = {
   tagline: "Inventory intelligence for every aisle",
   description:
     "Multi-location stock, demand forecasts and reorder suggestions in one operational view.",
-  company: "Ivents",
-  companyLine: "Stoq is a product of Ivents.",
+  company: "Stoq", // "Ivents",
+  companyLine: "Stoq", // "Stoq is a product of Ivents.",
   email: "hello@stoq.xyz",
   phone: "+234 812 000 7712",
   city: "Lagos, Nigeria",

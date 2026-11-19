@@ -96,7 +96,7 @@ export default function LocationsPage() {
         </div>
       </PageHero>
 
-      <Locations />
+      <Locations showSuppliers={false} />
 
       <PageSection
         eyebrow="Why it matters"

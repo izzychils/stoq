@@ -5,7 +5,7 @@ import { GlassCard } from "@/components/ui/glass-card";
 import { locations, purchaseOrders, suppliers, transfers } from "@/lib/data";
 import { cn, naira, shortDate } from "@/lib/utils";
 
-export function Locations() {
+export function Locations({ showSuppliers = true }: { showSuppliers?: boolean }) {
   return (
     <section id="locations" className="relative mx-auto w-full max-w-[1200px] px-5 py-24 sm:px-8 sm:py-28">
       <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
@@ -130,7 +130,10 @@ export function Locations() {
         </div>
       </Reveal>
 
-      {/* ------------------------------------------------------- suppliers */}
+      {/* Suppliers belongs to the homepage story; /suppliers and /locations each
+          have their own page, so the section opts out there instead of repeating
+          the same cards twice. */}
+      {showSuppliers ? (
       <div id="suppliers" className="mt-24 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <Reveal>
           <div className="grid gap-2 sm:grid-cols-2">
@@ -191,6 +194,7 @@ export function Locations() {
           </div>
         </Reveal>
       </div>
+      ) : null}
     </section>
   );
 }

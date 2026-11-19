@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { AssistantDemo } from "@/components/sections/assistant-demo";
@@ -9,6 +10,12 @@ import { Locations } from "@/components/sections/locations";
 import { Platform } from "@/components/sections/platform";
 import { Faq, Pricing } from "@/components/sections/pricing";
 import { Testimonials, Workflow } from "@/components/sections/proof";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  description:
+    "Stoq is the inventory operating system for Nigerian retail and distribution: live stock per location, eight-week demand forecasting, automated reorder drafts and a stock assistant that answers from your own ledger.",
+};
 
 export default function HomePage() {
   return (

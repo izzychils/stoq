@@ -36,15 +36,39 @@ export const metadata: Metadata = {
     "stock control software",
     "multi-location inventory",
     "demand forecasting",
+    "8-week demand forecast",
     "purchase orders",
     "warehouse software",
+    "inventory software Nigeria",
+    "retail stock management",
+    "reorder point automation",
   ],
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  category: "Business software",
+  authors: [{ name: "Stoq" }],
+  creator: "Stoq",
+  publisher: "Stoq",
+  applicationName: "Stoq",
   openGraph: {
     title: "Stoq — inventory intelligence for every aisle",
     description:
       "Multi-location stock, demand forecasts and reorder suggestions in one operational view.",
     url: "https://stoq.xyz",
     siteName: "Stoq",
+    locale: "en_NG",
     type: "website",
   },
   twitter: {
@@ -60,10 +84,71 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://stoq.xyz/#organization",
+      name: "Stoq",
+      url: "https://stoq.xyz",
+      email: "hello@stoq.xyz",
+      telephone: "+2348120007712",
+      description:
+        "Stoq is the inventory operating system for retailers, wholesalers, distributors and warehouses in Nigeria.",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Lagos",
+        addressCountry: "NG",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://stoq.xyz/#website",
+      url: "https://stoq.xyz",
+      name: "Stoq",
+      publisher: { "@id": "https://stoq.xyz/#organization" },
+      inLanguage: "en",
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Stoq",
+      applicationCategory: "BusinessApplication",
+      applicationSubCategory: "Inventory management software",
+      operatingSystem: "Web browser",
+      url: "https://stoq.xyz",
+      description:
+        "Multi-location stock, eight-week demand forecasting, automated reorder drafts, supplier operations and a stock assistant in one ledger.",
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "NGN",
+        lowPrice: "20000",
+        highPrice: "68000",
+        offerCount: "3",
+      },
+      featureList: [
+        "Multi-location stock ledger",
+        "Eight-week demand forecasting per location",
+        "Automated reorder point calculation",
+        "Purchase orders and supplier scorecards",
+        "Inter-location transfers",
+        "Barcode intake and cycle counts",
+        "AI stock assistant",
+      ],
+    },
+  ],
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${sans.variable} ${display.variable} ${mono.variable}`}>
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }

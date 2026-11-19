@@ -731,7 +731,7 @@ export const assistantAnswers: Record<
   "Which products are running low?": {
     body: [
       "Six products need attention, across three locations:",
-      "• Washing detergent — 83 units chain-wide (2.9 weeks cover). Yaba has 0.7 weeks.\n• Instant noodles — 78 units; Yaba is effectively out (0.5 weeks).\n• Baby diapers M — 45 units, below the 60-unit reorder point.\n• Refined sugar 50 kg — 0 at Online Fulfilment, 28 chain-wide.\n• Energy drink — cover is fine, but velocity is up 34% week on week.\n• Instant coffee — overstocked at 13 weeks of cover.",
+      "• Washing detergent - 83 units chain-wide (2.9 weeks cover). Yaba has 0.7 weeks.\n• Instant noodles - 78 units; Yaba is effectively out (0.5 weeks).\n• Baby diapers M - 45 units, below the 60-unit reorder point.\n• Refined sugar 50 kg - 0 at Online Fulfilment, 28 chain-wide.\n• Energy drink - cover is fine, but velocity is up 34% week on week.\n• Instant coffee - overstocked at 13 weeks of cover.",
       "I can consolidate detergent, noodles and diapers into one purchase order, or raise a transfer from Ikeja first. Which would you prefer?",
     ],
     meta: "Scanned 18 SKUs × 4 locations · 5 minutes ago",
@@ -755,7 +755,7 @@ export const assistantAnswers: Record<
   "What should I transfer to Lekki for the weekend?": {
     body: [
       "Lekki covers the weekend in 2.4 days at its current rate. Two transfers are worth making:",
-      "• 96 units of bottled water from Ikeja — Lekki has 9.1 days of cover, weekend demand is 1.8× weekday.\n• 48 units of energy drink from Ikeja — velocity is up 34% and Lekki is down to 8 units.",
+      "• 96 units of bottled water from Ikeja - Lekki has 9.1 days of cover, weekend demand is 1.8× weekday.\n• 48 units of energy drink from Ikeja - velocity is up 34% and Lekki is down to 8 units.",
       "Total transfer value: ₦318,400 at cost. Ikeja keeps 5.2 weeks of cover after both moves. Shall I draft TR-4413?",
     ],
     meta: "Transfer engine · considers lead time, cover and weekend uplift",

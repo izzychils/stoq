@@ -39,7 +39,7 @@ export function Workflow() {
               <br className="hidden sm:block" /> to <span className="gradient-text">ledger</span>.
             </>
           }
-          subtitle="One workflow for the physical reality of stock — cartons, counts and confirmations — and the numbers leadership needs on Monday."
+          subtitle="One workflow for the physical reality of stock - cartons, counts and confirmations - and the numbers leadership needs on Monday."
         />
       </Reveal>
 

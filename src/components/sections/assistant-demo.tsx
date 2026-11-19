@@ -17,7 +17,7 @@ const OPENING: Message = {
   id: 0,
   role: "assistant",
   body: [
-    "I can see 18 SKUs across four locations, plus the last 26 weeks of sales. Ask about cover, a forecast, a transfer or an order — I will show the numbers behind the answer.",
+    "I can see 18 SKUs across four locations, plus the last 26 weeks of sales. Ask about cover, a forecast, a transfer or an order - I will show the numbers behind the answer.",
   ],
   meta: "Stoq assistant · read-only access to live stock",
 };

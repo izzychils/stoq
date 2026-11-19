@@ -3,7 +3,7 @@ import { Cta } from "@/components/sections/cta";
 import { FaqList, MarketingPage, PageHero, PageSection } from "@/components/marketing/page-shell";
 
 export const metadata: Metadata = {
-  title: "FAQ — questions about Stoq inventory software",
+  title: "Questions about Stoq inventory software",
   description:
     "Answers about Stoq: how forecasting works with your sales history, how multi-location stock and transfers behave, barcode hardware, CSV import, offline mode, data ownership, pricing and the trial.",
   keywords: [
@@ -56,7 +56,7 @@ const GROUPS = [
       },
       {
         q: "How do transfers work?",
-        a: "Stoq suggests a transfer when one location has surplus cover and another is short. The sending site confirms what was picked, the receiving site confirms what arrived, and the ledger moves once — with both names on the record.",
+        a: "Stoq suggests a transfer when one location has surplus cover and another is short. The sending site confirms what was picked, the receiving site confirms what arrived, and the ledger moves once - with both names on the record.",
       },
       {
         q: "Does it handle wholesale and retail pricing?",
@@ -85,7 +85,7 @@ const GROUPS = [
       },
       {
         q: "When is a reorder point recalculated?",
-        a: "Weekly by default and immediately after a large movement — a promotion, a bulk wholesale sale, or a stock-out that truncated demand.",
+        a: "Weekly by default and immediately after a large movement - a promotion, a bulk wholesale sale, or a stock-out that truncated demand.",
       },
       {
         q: "Will it place orders automatically?",

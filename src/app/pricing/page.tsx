@@ -7,7 +7,7 @@ import { MarketingPage, PageHero, PageSection } from "@/components/marketing/pag
 import { GlassCard } from "@/components/ui/glass-card";
 
 export const metadata: Metadata = {
-  title: "Pricing — pay for the operation you run",
+  title: "Pricing: pay for the operation you run",
   description:
     "Stoq pricing: ₦20,000/month for one store, ₦56,000/month for up to ten locations with forecasting, transfers and the stock assistant, and a scoped Network plan for warehouses and distributors. 14-day trial, no card.",
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Stoq pricing",
     description:
-      "One store, a chain of ten, or a whole network — priced by operation, not by scan.",
+      "One store, a chain of ten, or a whole network - priced by operation, not by scan.",
     url: "https://stoq.xyz/pricing",
   },
 };
@@ -65,7 +65,7 @@ export default function PricingPage() {
             <br /> you <span className="gradient-text">actually run</span>.
           </>
         }
-        description="No per-scan charges, no per-seat surprises on the floor, no implementation fee. Start with one store and add locations, transfers and forecasting when the business needs them — not when a contract says so."
+        description="No per-scan charges, no per-seat surprises on the floor, no implementation fee. Start with one store and add locations, transfers and forecasting when the business needs them - not when a contract says so."
         bullets={[
           "14-day trial with no card",
           "Scanning and counting included",

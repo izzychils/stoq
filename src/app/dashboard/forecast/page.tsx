@@ -44,7 +44,7 @@ export default function ForecastPage() {
           <ForecastChart id="dashboard-forecast" data={forecastSeries} height={220} />
           <p className="mt-2 text-[9.5px] leading-relaxed text-fog-faint">
             Week 6 onwards is projected. Weekend demand runs 1.8× weekday and the holiday
-            peak begins in week 6 — order before 19 November to keep nine days of buffer.
+            peak begins in week 6 - order before 19 November to keep nine days of buffer.
           </p>
         </Panel>
 

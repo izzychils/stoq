@@ -17,7 +17,7 @@ import { naira, shortDate } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Supplier operations and purchase orders",
   description:
-    "Lead time, reliability, outstanding balance and every open purchase order per supplier — with the stock each late delivery is holding up. Stop finding out a shipment slipped when the shelf is empty.",
+    "Lead time, reliability, outstanding balance and every open purchase order per supplier - with the stock each late delivery is holding up. Stop finding out a shipment slipped when the shelf is empty.",
   keywords: [
     "supplier management",
     "purchase order software",

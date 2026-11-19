@@ -51,7 +51,7 @@ export function AssistantWorkspace() {
       const answer = assistantAnswers[question] ?? {
         body: [
           "I could not match that to a SKU, location or date window in the demo ledger.",
-          "Try naming a product, a location, or a period — for example ‘Which products are running low?’ or ‘What did we sell this week?’.",
+          "Try naming a product, a location, or a period - for example ‘Which products are running low?’ or ‘What did we sell this week?’.",
         ],
         meta: "No record found · not answered",
       };

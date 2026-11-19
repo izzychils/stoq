@@ -21,7 +21,7 @@ import {
 import { GlassCard } from "@/components/ui/glass-card";
 
 export const metadata: Metadata = {
-  title: "Who Stoq is for — retailers, wholesalers, distributors and warehouses",
+  title: "Who Stoq is for: retailers, wholesalers, distributors and warehouses",
   description:
     "Stoq fits retail chains, wholesalers, distributors, warehouses, supermarkets and dark stores that move physical stock. Here is what each operation gets, and where Stoq is honestly not the right fit.",
   keywords: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Who Stoq is for · Stoq",
     description:
-      "Retail chains, wholesalers, distributors, warehouses and dark stores — and where Stoq is not the fit.",
+      "Retail chains, wholesalers, distributors, warehouses and dark stores - and where Stoq is not the fit.",
     url: "https://stoq.xyz/audience",
   },
 };
@@ -97,7 +97,7 @@ export default function AudiencePage() {
             <br /> Stoq <span className="gradient-text">tracks it</span>.
           </>
         }
-        description="Stoq is built for operations that move physical stock: a shop, a warehouse, a depot, a van. It is not a marketplace tool or a bookkeeping app — it is the ledger between the loading bay and the till."
+        description="Stoq is built for operations that move physical stock: a shop, a warehouse, a depot, a van. It is not a marketplace tool or a bookkeeping app - it is the ledger between the loading bay and the till."
         bullets={[
           "Retail chains and single stores",
           "Wholesalers and distributors",

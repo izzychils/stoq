@@ -23,7 +23,7 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://stoq.xyz"),
   title: {
-    default: "Stoq — inventory intelligence for every aisle",
+    default: "Stoq: inventory intelligence for every aisle",
     template: "%s · Stoq",
   },
   description:
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   publisher: "Stoq",
   applicationName: "Stoq",
   openGraph: {
-    title: "Stoq — inventory intelligence for every aisle",
+    title: "Stoq: inventory intelligence for every aisle",
     description:
       "Multi-location stock, demand forecasts and reorder suggestions in one operational view.",
     url: "https://stoq.xyz",
@@ -73,9 +73,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stoq — inventory intelligence for every aisle",
+    title: "Stoq: inventory intelligence for every aisle",
     description:
-      "Know what you have, what is moving, and what to buy next — across every store and warehouse.",
+      "Know what you have, what is moving, and what to buy next - across every store and warehouse.",
   },
 };
 

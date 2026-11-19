@@ -24,7 +24,7 @@ import { GlassCard } from "@/components/ui/glass-card";
 import { naira } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Automated restocking — reorder points that follow demand",
+  title: "Automated restocking - reorder points that follow demand",
   description:
     "Stoq recalculates reorder points from real sales velocity, supplier lead time and forecasts, then drafts the purchase order in cartons with the reasoning and an order-by date. Nothing is sent without approval.",
   keywords: [
@@ -121,7 +121,7 @@ export default function ReorderPage() {
             {
               icon: <Calculator className="size-4" aria-hidden />,
               title: "Forecast demand",
-              copy: "Expected units sold over the supplier's lead time, from the eight-week forecast — not last year's average.",
+              copy: "Expected units sold over the supplier's lead time, from the eight-week forecast - not last year's average.",
             },
             {
               icon: <Clock className="size-4" aria-hidden />,
@@ -157,7 +157,7 @@ export default function ReorderPage() {
           </p>
           <p className="mt-3 flex items-start gap-2 text-[11px] leading-relaxed text-fog-dim">
             <Check className="mt-0.5 size-3.5 shrink-0 text-lime-400" aria-hidden />
-            The same arithmetic runs for every SKU at every location, after every movement —
+            The same arithmetic runs for every SKU at every location, after every movement -
             which is the part a human cannot do daily.
           </p>
         </div>
@@ -181,7 +181,7 @@ export default function ReorderPage() {
             {
               icon: <FileCheck2 className="size-4" aria-hidden />,
               title: "Approvals",
-              copy: "Drafts wait for a buyer or owner. Approve, edit the quantity, or reject with a reason — all three are logged.",
+              copy: "Drafts wait for a buyer or owner. Approve, edit the quantity, or reject with a reason - all three are logged.",
             },
             {
               icon: <Truck className="size-4" aria-hidden />,
@@ -229,7 +229,7 @@ export default function ReorderPage() {
             },
             {
               q: "How is this different from a minimum-stock alert?",
-              a: "A minimum is a fixed number. Stoq recalculates the point from current velocity, forecast, lead time and pack size, then proposes the quantity — not just a warning.",
+              a: "A minimum is a fixed number. Stoq recalculates the point from current velocity, forecast, lead time and pack size, then proposes the quantity - not just a warning.",
             },
             {
               q: "Can I keep my existing reorder points?",

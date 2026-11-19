@@ -14,7 +14,7 @@ import { GlassCard } from "@/components/ui/glass-card";
 import { assistantPrompts } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Stock assistant — ask your inventory in plain language",
+  title: "Stock assistant: ask your inventory in plain language",
   description:
     "Ask Stoq questions like “which products are running low?” or “what should I transfer to Lekki?” and get an answer built from your ledger, with the records and model version it used.",
   keywords: [
@@ -107,7 +107,7 @@ export default function AssistantPage() {
             {
               icon: <Database className="size-4" aria-hidden />,
               title: "Reads the ledger",
-              copy: "Quantities, movements, suppliers and forecasts come from the records in your workspace — not from the model's memory.",
+              copy: "Quantities, movements, suppliers and forecasts come from the records in your workspace - not from the model's memory.",
             },
             {
               icon: <Search className="size-4" aria-hidden />,
@@ -169,7 +169,7 @@ export default function AssistantPage() {
           stats={[
             { value: "18", label: "SKUs scanned", note: "Every answer considers all products and locations in scope." },
             { value: "<2s", label: "typical answer", note: "Plain language in, plain language out, with sources." },
-            { value: "0", label: "invented records", note: "No history means no number — the assistant says so." },
+            { value: "0", label: "invented records", note: "No history means no number - the assistant says so." },
           ]}
         />
       </PageSection>

@@ -64,7 +64,7 @@ export function SettingsPanel() {
           </button>
         ))}
         <div className="mt-2 border-t border-white/[0.06] px-2.5 pt-2 text-[8.5px] leading-relaxed text-fog-faint">
-          Demo workspace — changes are not persisted.
+          Demo workspace - changes are not persisted.
         </div>
       </nav>
 
@@ -214,7 +214,7 @@ export function SettingsPanel() {
         {tab === "billing" ? (
           <div className="glass rounded-2xl p-5">
             <h2 className="text-[13px] font-semibold text-bone">Billing</h2>
-            <p className="mt-0.5 text-[10px] text-fog-faint">Demo workspace — no payment method attached.</p>
+            <p className="mt-0.5 text-[10px] text-fog-faint">Demo workspace - no payment method attached.</p>
 
             <div className="mt-4 rounded-xl border border-azure-500/20 bg-azure-500/[0.06] p-4">
               <div className="flex items-center justify-between">

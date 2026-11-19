@@ -29,7 +29,7 @@ import { number } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "8-week demand forecasting, per location",
   description:
-    "Stoq forecasts demand eight weeks ahead for every SKU at every location, using your own sales history, weekday patterns, promotions and supplier lead times — with a confidence band and the reasoning shown.",
+    "Stoq forecasts demand eight weeks ahead for every SKU at every location, using your own sales history, weekday patterns, promotions and supplier lead times - with a confidence band and the reasoning shown.",
   keywords: [
     "demand forecasting",
     "8 week forecast",
@@ -56,7 +56,7 @@ const LOCATION_FORECAST = [
     change: 8.1,
     confidence: 94,
     cover: 19.4,
-    note: "Holding stock, not selling it — its demand is transfer-driven.",
+    note: "Holding stock, not selling it - its demand is transfer-driven.",
   },
   {
     location: "Yaba Retail",
@@ -103,7 +103,7 @@ export default function ForecastPage() {
             <span className="gradient-text">per location</span>.
           </>
         }
-        description="A stock system can tell you what happened last week. Stoq tells you what each store will sell next week, and the week after that — eight weeks out, per SKU, per location — so the order you place today is the right size when it lands."
+        description="A stock system can tell you what happened last week. Stoq tells you what each store will sell next week, and the week after that - eight weeks out, per SKU, per location - so the order you place today is the right size when it lands."
         bullets={[
           "One forecast line per location, never a chain average",
           "Weekday, weekend, payday and promo patterns built in",
@@ -229,7 +229,7 @@ export default function ForecastPage() {
             {
               icon: <CloudSun className="size-4" aria-hidden />,
               title: "Seasonality",
-              copy: "Detects the annual shape in the data — December peaks, rainy-season dips, school-term effects — and projects it forward.",
+              copy: "Detects the annual shape in the data - December peaks, rainy-season dips, school-term effects - and projects it forward.",
             },
             {
               icon: <Sparkles className="size-4" aria-hidden />,
@@ -244,7 +244,7 @@ export default function ForecastPage() {
             {
               icon: <Gauge className="size-4" aria-hidden />,
               title: "Confidence, not certainty",
-              copy: "New SKUs and erratic sellers carry a wider band. A 62% forecast is labelled as one — you decide how much buffer to hold.",
+              copy: "New SKUs and erratic sellers carry a wider band. A 62% forecast is labelled as one - you decide how much buffer to hold.",
             },
           ]}
         />
@@ -253,7 +253,7 @@ export default function ForecastPage() {
             {
               step: "01",
               title: "Collect",
-              copy: "Sales, returns, transfers and signed-off counts are read from the ledger — no separate export.",
+              copy: "Sales, returns, transfers and signed-off counts are read from the ledger - no separate export.",
             },
             {
               step: "02",

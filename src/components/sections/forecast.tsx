@@ -25,7 +25,7 @@ export function Forecast() {
             eight <span className="gradient-text">weeks</span>, not the last one.
           </h2>
           <p className="mt-5 max-w-md text-[14px] leading-relaxed text-fog">
-            A stock system can tell you what happened. Stoq forecasts what is about to —
+            A stock system can tell you what happened. Stoq forecasts what is about to -
             per SKU, per location, with the weekend uplift and the promo bump already
             priced in.
           </p>
@@ -222,7 +222,7 @@ export function Reorder() {
           </h2>
           <p className="mt-4 max-w-md text-[14px] leading-relaxed text-fog">
             Stoq watches velocity, cover days and supplier lead time. When a SKU drops
-            below its reorder point, the quantity is calculated and the draft is waiting —
+            below its reorder point, the quantity is calculated and the draft is waiting -
             with the reasoning shown, and nothing sent until a human approves.
           </p>
 

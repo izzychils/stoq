@@ -16,7 +16,7 @@ import { GlassCard } from "@/components/ui/glass-card";
 import { locations } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Multi-location inventory — every site, one ledger",
+  title: "Multi-location inventory: every site, one ledger",
   description:
     "Stoq keeps stock per store and per warehouse, suggests transfers from surplus to demand, and requires confirmation at both ends. Capacity, fill rate and staff visible for every site.",
   keywords: [
@@ -47,7 +47,7 @@ export default function LocationsPage() {
             One <span className="gradient-text">ledger</span>.
           </>
         }
-        description="A chain does not have one stock level, it has four — and they behave differently. Stoq gives each location its own quantity, capacity and pattern, then shows the transfer that puts stock where it will actually sell this weekend."
+        description="A chain does not have one stock level, it has four - and they behave differently. Stoq gives each location its own quantity, capacity and pattern, then shows the transfer that puts stock where it will actually sell this weekend."
         bullets={[
           "Stock reported per location, never averaged",
           "Transfers suggested from surplus to demand",
@@ -153,7 +153,7 @@ export default function LocationsPage() {
             {
               step: "02",
               title: "Find the surplus",
-              copy: "Stoq checks other locations for cover above their own needs — not just the warehouse.",
+              copy: "Stoq checks other locations for cover above their own needs - not just the warehouse.",
             },
             {
               step: "03",
@@ -193,7 +193,7 @@ export default function LocationsPage() {
             },
             {
               q: "How are transfers valued?",
-              a: "At cost, preserving supplier and batch references. The move does not create profit — it relocates inventory.",
+              a: "At cost, preserving supplier and batch references. The move does not create profit - it relocates inventory.",
             },
             {
               q: "Can a store receive without a warehouse?",

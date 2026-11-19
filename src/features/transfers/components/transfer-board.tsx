@@ -176,7 +176,7 @@ export function TransferBoard() {
             </div>
 
             <p className="mt-3 text-[9.5px] leading-relaxed text-fog-faint">
-              Demo only — approving this draft will not move stock. Both sites would confirm
+              Demo only - approving this draft will not move stock. Both sites would confirm
               the count before the ledger changes.
             </p>
 

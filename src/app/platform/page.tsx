@@ -24,7 +24,7 @@ import {
 import { faqs } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Platform — one inventory ledger for every location",
+  title: "Platform: one inventory ledger for every location",
   description:
     "Stoq is the inventory operating system for retail and distribution: live stock per location, transfers with confirmation, barcode intake, cycle counts, purchase orders and supplier scorecards in one ledger.",
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/platform" },
   openGraph: {
-    title: "Stoq platform — one inventory ledger for every location",
+    title: "Stoq platform: one inventory ledger for every location",
     description:
       "Live stock per location, transfers, barcode intake, counts and purchase orders on a single ledger.",
     url: "https://stoq.xyz/platform",
@@ -58,7 +58,7 @@ export default function PlatformPage() {
         }
         description="Stoq replaces the spreadsheet, the notebook at the till and the WhatsApp chain of “do we have any left?”. Stock, movements and buying decisions all read from the same record, so the number on the dashboard is the number in the aisle."
         bullets={[
-          "Stock per SKU, per location — never averaged",
+          "Stock per SKU, per location - never averaged",
           "Barcode intake without typing at the bay",
           "Transfers confirmed at both ends",
           "Purchase orders drafted from real velocity",
@@ -177,7 +177,7 @@ export default function PlatformPage() {
             {
               step: "02",
               title: "Invite the sites",
-              copy: "Owners, buyers, store managers and warehouse leads get scoped logins — no shared passwords.",
+              copy: "Owners, buyers, store managers and warehouse leads get scoped logins - no shared passwords.",
             },
             {
               step: "03",

@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "8-week demand forecasting, per location · Stoq",
     description:
       "Eight weeks of forecast for every SKU at every store and warehouse, with confidence and cover days.",
-    url: "https://stoq.xyz/forecast",
+    url: "https://stoq.site/forecast",
   },
 };
 

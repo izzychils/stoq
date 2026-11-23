@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE = "https://stoq.xyz";
+const BASE = "https://stoq.site";
 const lastModified = new Date("2026-11-19");
 
 const pages: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] }[] = [

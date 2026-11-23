@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/dashboard", "/sign-in", "/sign-up"],
     },
-    sitemap: "https://stoq.xyz/sitemap.xml",
-    host: "https://stoq.xyz",
+    sitemap: "https://www.stoq.site/sitemap.xml",
+    host: "https://www.stoq.site",
   };
 }

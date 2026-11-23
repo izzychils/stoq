@@ -242,3 +242,4 @@ React expects the `children` prop of <title> tags to be a string, number, bigint
  ✓ Compiled in 6.7s (453 modules)
  ✓ Compiled in 1433ms (453 modules)
  ✓ Compiled in 5.1s (1093 modules)
+ ✓ Compiled in 16s (1093 modules)

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Stock assistant · Stoq",
     description:
       "Ask your inventory anything in plain language and get an answer grounded in your own records.",
-    url: "https://stoq.xyz/assistant",
+    url: "https://stoq.site/assistant",
   },
 };
 

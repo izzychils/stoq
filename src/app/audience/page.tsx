@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Who Stoq is for · Stoq",
     description:
       "Retail chains, wholesalers, distributors, warehouses and dark stores - and where Stoq is not the fit.",
-    url: "https://stoq.xyz/audience",
+    url: "https://stoq.site/audience",
   },
 };
 

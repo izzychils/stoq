@@ -25,7 +25,7 @@ const NAV = [
 
 export function BrowserFrame({
   children,
-  url = "app.stoq.xyz/dashboard",
+  url = "app.stoq.site/dashboard",
   className,
 }: {
   children: React.ReactNode;

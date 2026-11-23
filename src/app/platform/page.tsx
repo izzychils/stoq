@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Stoq platform: one inventory ledger for every location",
     description:
       "Live stock per location, transfers, barcode intake, counts and purchase orders on a single ledger.",
-    url: "https://stoq.xyz/platform",
+    url: "https://stoq.site/platform",
   },
 };
 

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Supplier operations · Stoq",
     description:
       "Lead time, reliability and open purchase orders per supplier, tied to the stock they hold up.",
-    url: "https://stoq.xyz/suppliers",
+    url: "https://stoq.site/suppliers",
   },
 };
 

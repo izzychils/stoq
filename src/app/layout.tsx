@@ -21,7 +21,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://stoq.xyz"),
+  metadataBase: new URL("https://stoq.site"),
   title: {
     default: "Stoq: inventory intelligence for every aisle",
     template: "%s · Stoq",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     title: "Stoq: inventory intelligence for every aisle",
     description:
       "Multi-location stock, demand forecasts and reorder suggestions in one operational view.",
-    url: "https://stoq.xyz",
+    url: "https://stoq.site",
     siteName: "Stoq",
     locale: "en_NG",
     type: "website",
@@ -89,10 +89,10 @@ const organizationJsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://stoq.xyz/#organization",
+      "@id": "https://stoq.site/#organization",
       name: "Stoq",
-      url: "https://stoq.xyz",
-      email: "hello@stoq.xyz",
+      url: "https://stoq.site",
+      email: "hello@stoq.site",
       telephone: "+2348120007712",
       description:
         "Stoq is the inventory operating system for retailers, wholesalers, distributors and warehouses in Nigeria.",
@@ -104,10 +104,10 @@ const organizationJsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://stoq.xyz/#website",
-      url: "https://stoq.xyz",
+      "@id": "https://stoq.site/#website",
+      url: "https://stoq.site",
       name: "Stoq",
-      publisher: { "@id": "https://stoq.xyz/#organization" },
+      publisher: { "@id": "https://stoq.site/#organization" },
       inLanguage: "en",
     },
     {
@@ -116,7 +116,7 @@ const organizationJsonLd = {
       applicationCategory: "BusinessApplication",
       applicationSubCategory: "Inventory management software",
       operatingSystem: "Web browser",
-      url: "https://stoq.xyz",
+      url: "https://stoq.site",
       description:
         "Multi-location stock, eight-week demand forecasting, automated reorder drafts, supplier operations and a stock assistant in one ledger.",
       offers: {

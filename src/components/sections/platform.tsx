@@ -115,7 +115,7 @@ export function Platform() {
         </div>
 
         <Reveal delay={80} key={`${active}-panel`}>
-          <BrowserFrame url={`app.stoq.xyz/${active}`}>
+          <BrowserFrame url={`app.stoq.site/${active}`}>
             {active === "inventory" ? <InventoryPanel /> : null}
             {active === "transfers" ? <TransfersPanel /> : null}
             {active === "orders" ? <OrdersPanel /> : null}

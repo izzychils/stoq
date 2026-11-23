@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Stoq FAQ",
     description: "Forecasting, multi-location stock, hardware, data and pricing questions.",
-    url: "https://stoq.xyz/faq",
+    url: "https://stoq.site/faq",
   },
 };
 
@@ -148,7 +148,7 @@ export default function FaqPage() {
             <br /> teams <span className="gradient-text">ask first</span>.
           </>
         }
-        description="Straight answers about forecasting, multi-location stock, hardware, imports, offline work, data ownership and money. If something is missing, email hello@stoq.xyz and the answer gets added here."
+        description="Straight answers about forecasting, multi-location stock, hardware, imports, offline work, data ownership and money. If something is missing, email hello@stoq.site and the answer gets added here."
         bullets={[
           "Setup, imports and hardware",
           "Stock, transfers and counts",

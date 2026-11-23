@@ -20,7 +20,7 @@ const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "SQ-2026-00001",
     companyName: "Stoq", // "Ivents",
-    website: "stoq.xyz",
+    website: "stoq.site",
     status: "Verified",
     registrationDate: "2026-01-10",
     expiryDate: "2029-01-09",

@@ -99,10 +99,10 @@ export function SiteFooter() {
               Barcode-ready · CSV import · offline queue
             </span>
             <a
-              href="https://stoq.xyz"
+              href="https://stoq.site"
               className="inline-flex items-center gap-1 transition-colors hover:text-azure-300"
             >
-              stoq.xyz
+              stoq.site
               <ArrowUpRight className="size-3" aria-hidden />
             </a>
           </div>

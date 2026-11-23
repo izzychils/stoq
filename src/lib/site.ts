@@ -1,12 +1,12 @@
 export const SITE = {
   name: "Stoq",
-  domain: "stoq.xyz",
+  domain: "stoq.site",
   tagline: "Inventory intelligence for every aisle",
   description:
     "Multi-location stock, demand forecasts and reorder suggestions in one operational view.",
   company: "Stoq", // "Ivents",
   companyLine: "Stoq", // "Stoq is a product of Ivents.",
-  email: "hello@stoq.xyz",
+  email: "hello@stoq.site",
   phone: "+234 812 000 7712",
   city: "Lagos, Nigeria",
   location: "Lagos, Nigeria",

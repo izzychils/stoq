@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Automated restocking · Stoq",
     description:
       "Reorder points that follow real velocity, with draft purchase orders waiting for approval.",
-    url: "https://stoq.xyz/reorder",
+    url: "https://stoq.site/reorder",
   },
 };
 

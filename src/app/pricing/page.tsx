@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Stoq pricing",
     description:
       "One store, a chain of ten, or a whole network - priced by operation, not by scan.",
-    url: "https://stoq.xyz/pricing",
+    url: "https://stoq.site/pricing",
   },
 };
 

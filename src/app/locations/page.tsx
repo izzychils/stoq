@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Multi-location inventory · Stoq",
     description:
       "One ledger for stores, a warehouse and online fulfilment, with transfers confirmed at both ends.",
-    url: "https://stoq.xyz/locations",
+    url: "https://stoq.site/locations",
   },
 };
 

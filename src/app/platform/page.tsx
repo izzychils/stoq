@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   ArrowLeftRight,
   Barcode,
@@ -26,7 +26,7 @@ import { faqs } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Platform: one inventory ledger for every location",
   description:
-    "Stoq is the inventory operating system for retail and distribution: live stock per location, transfers with confirmation, barcode intake, cycle counts, purchase orders and supplier scorecards in one ledger.",
+    "Stoq is the AI-powered inventory operating system for retail and distribution: live stock per location, AI demand forecasting, barcode intake, cycle counts, purchase orders and supplier scorecards in one ledger.",
   keywords: [
     "inventory operating system",
     "inventory management software",
@@ -59,9 +59,10 @@ export default function PlatformPage() {
         description="Stoq replaces the spreadsheet, the notebook at the till and the WhatsApp chain of “do we have any left?”. Stock, movements and buying decisions all read from the same record, so the number on the dashboard is the number in the aisle."
         bullets={[
           "Stock per SKU, per location - never averaged",
+          "AI-powered demand forecasting and reorder suggestions",
           "Barcode intake without typing at the bay",
           "Transfers confirmed at both ends",
-          "Purchase orders drafted from real velocity",
+          "Purchase orders drafted by AI from real velocity",
         ]}
       >
         <div className="glass-strong edge-light rounded-2xl p-5">
